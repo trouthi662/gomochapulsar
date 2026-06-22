@@ -1,4 +1,4 @@
-# token-mint-eefb8c
+# token-mint-63da44
 
 A Rust token-mint utility.
 

