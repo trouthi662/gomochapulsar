@@ -1,5 +1,5 @@
 use std::fmt;
-const ID: &str = "token-mint-63da44";
+const ID: &str = "token-mint-30a2bd";
 #[derive(Debug)]
 struct AppState { id: String, counter: u64 }
 impl fmt::Display for AppState { fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result { write!(f, "AppState({}, count={})", self.id, self.counter) } }

